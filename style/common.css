@@ -1,0 +1,35 @@
+@charset "utf-8";
+body {margin:0;padding:0;font-family: myfont1;font-size: 14px;text-align: center;color:#000;}
+/*默认样式去除*/a{text-decoration:none;color: #000;}a:hover{color:#000;}a:active{color:#000;}ul,li,p {padding: 0;margin: 0;list-style: none;}h1,h2,h3,h4,h5,h6 {margin: 0;padding: 0;font-size: 14px;font-weight: 100}
+/*postion*/.pr{position: relative;}.pa{position: absolute;}.pf{position: fixed;}
+/*height*/.h14{height:14px;line-height:14px;}.h16{height:16px;line-height:16px;}.h18{height:18px;line-height:18px;}.h20{height:20px;line-height:20px;}.h22{height:22px;line-height:22px;}.h24{height:24px;line-height:24px;}.h26{height:26px;line-height:26px;}.h30{height:30px;line-height:30px;}.h36{height:36px;line-height:36px;}.h40 {height:40px;line-height:40px;}.h50 {height:50px;line-height:50px;}.h60 {height:60px;line-height:60px;}
+/*margin*/.m0{margin:0;}
+.ml1{margin-left:1px;}.ml2{margin-left:2px;}.ml5{margin-left:5px;}.ml10{margin-left:10px;}.ml15{margin-left:15px;}.ml20{margin-left:20px;}.ml25{margin-left:25px;}.ml30{margin-left:30px;}
+.mr1{margin-right:1px;}.mr2{margin-right:2px;}.mr5{margin-right:5px;}.mr10{margin-right:10px;}.mr15{margin-right:15px;}.mr20{margin-right:20px;}.mr25{margin-right:25px;}.mr30{margin-right:30px;}
+.mt1{margin-top:1px;}.mt2{margin-top:2px;}.mt5{margin-top:5px;}.mt10{margin-top:10px;}.mt15{margin-top:15px;}.mt20{margin-top:20px;}.mt25{margin-top:25px;}.mt30{margin-top:30px;}.mt40{margin-top:40px;}
+.mb1{margin-bottom:1px;}.mb2{margin-bottom:2px;}.mb5{margin-bottom:5px;}.mb10{margin-bottom:10px;}.mb15{margin-bottom:15px;}.mb20{margin-bottom:20px;}.mb25{margin-bottom:25px;}.mb30{margin-bottom:30px;}.ml-1{margin-left:-1px;}.mt-1{margin-top:-1px;}
+/*padding*/.p0{padding:0px;}.p1{padding:1px;}.pl1{padding-left:1px;}.pt1{padding-top:1px;}.pr1{padding-right:1px;}.pb1{padding-bottom:1px;}.p2{padding:2px;}.pl2{padding-left:2px;}.pt2{padding-top:2px;}.pr2{padding-right:2px;}.pb2{padding-bottom:2px;}.pl5{padding-left:5px;}.p5{padding:5px;}.pt5{padding-top:5px;}.pr5{padding-right:5px;}.pb5{padding-bottom:5px;}.p10{padding:10px;}.pl10{padding-left:10px;}.pt10{padding-top:10px;}.pr10{padding-right:10px;}.pb10{padding-bottom:10px;}.p20{padding:20px;}.pl20{padding-left:20px;}.pt20{padding-top:20px;}.pr20{padding-right:20px;}.pb20{padding-bottom:20px;}
+/*color*/.white{color:#fff;}.black{color:#000;}.g0{color:#000;}.g3{color:#333;}.g6{color:#666;}.g9{color:#999;}.wh{color:white;}.ga3{color:#a3a3a3;}.g1b{color:#1b1b1b;}.g43{color:#434343;}.g62{color:#626262;}.gc1 {color:#c1c1c1;}.g95{color:#959595;}.gred {color:#ed365a;}.gblue{color: #00b7ee;}.g7d{color: #7d7d7d;}
+/*font-size*/.f0{font-size:0;}.f10{font-size:10px;}.f12{font-size:12px;}.f13{font-size:13px;}.f14{font-size:14px;}.f16{font-size:16px;}.f18{font-size:18px;}.f20{font-size:20px;}.f24{font-size:24px;}.f25{font-size:25px;}.f30{font-size:30px;}.f36{font-size:36px;}.f40 {font-size:40px;}
+/*font-family*/.fa{font-family:Arial;}.ft{font-family:Tahoma;}.fv{font-family:Verdana;}.fs{font-family:'宋体';}.fw{font-family:'微软雅黑';}
+/*font-weight*/.n{font-weight:normal; font-style:normal;}.b{font-weight:bold;}.i{font-style:italic;}.fw1 {font-weight: 100;}.fw5 {font-weight: 500;}.fw6 {font-weight: 600;}
+/*text-align*/.tc{text-align:center;}.tr{text-align:right;}.tl{text-align:left;}.tj{text-align:justify;}
+/*letter-spacing*/.lt0{letter-spacing:0;}lt1{letter-spacing:1px;}
+/*word-break*/.bk{word-wrap:break-word;}
+/*vertical-align*/.vm{vertical-align:middle;}.vtb{vertical-align:text-bottom;}.vb{vertical-align:bottom;}.vt{vertical-align:top;}.vn{vertical-align:-2px;}
+/*float*/.fl{float:left;}.fr{float:right;}
+/*z-index*/.zx1{z-index:1;}.zx2{z-index:2;}
+/*cursor*/.poi:hover{cursor:pointer;}.def{cursor:default;}
+/*overflow*/.ovh{overflow:hidden;}
+/*display visibility*/.vh{visibility:hidden;}.vv{visibility:visible;}.hidden,.dn{display:none;}.block{display: block;}.block{display:block;}.inline{display:inline;}.iblock{display: inline-block;}
+/*居中*/
+/*块状元素水平居中*/.center{margin:0 auto;}
+/*水平垂直居中*/.wc{white-space:nowrap;text-align:center;}.wc:before{content:'';display:inline-block;height:100%;vertical-align:middle;}.iw {display:inline-block;vertical-align:middle;}
+/*块状元素水平居中*/.auto{margin-left:auto; margin-right:auto;}
+/*清除浮动*/.clear{clear:both; height:0; overflow:hidden;}.fix{*zoom:1;}.fix:after{display:block; content:"clear"; height:0; clear:both; overflow:hidden; visibility:hidden;}.clearfix:after{content:'';display:block;clear:both;}
+/*单行文字溢出虚点显示*/.ell{text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+/*红色标记*/.mark{font-weight:bold;color:#ff0000;}
+/*字符型图标样式*/.symbol{font-size:14px;font-weight:bold;color:#0066cc;}
+/*主区域区背景*/.main-eara{margin: 0 auto;text-align:center;width: 1003px;background-color: #fff;}
+/*其他常用*/
+.z{*zoom:1;}.nowrap{white-space:nowrap;}.cover{position:absolute;width:100%;height:100%;background:#000;opacity:0.5;filter(algpa:500)}

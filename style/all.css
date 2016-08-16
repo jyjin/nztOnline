@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+html {
+    font-size: 20px;
+}
+@media only screen and (min-width: 401px) {
+    html {
+        font-size: 25px !important;
+    }
+}
+@media only screen and (min-width: 428px) {
+    html {
+        font-size: 26.75px !important;
+    }
+}
+@media only screen and (min-width: 481px) {
+    html {
+        font-size: 30px !important; 
+    }
+}
+@media only screen and (min-width: 569px) {
+    html {
+        font-size: 35px !important; 
+    }
+}
+@media only screen and (min-width: 641px) {
+    html {
+        font-size: 40px !important; 
+    }
+}
+
+body {
+	color: #333;
+	-webkit-tap-highlight-color: transparent;
+    background-color: #f4f5f9;
+    font-family: arial, helvetica, sans-serif;
+}
+.wrap {
+	width: 100%;
+}
+/* 清除浮动 */
+.clear {
+	clear: both;
+	overflow: hidden;
+	height: 0;
+}
+.clearfix {
+	display: block;
+	zoom: 1;
+}
+.clearfix:after {
+	content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+*html .clearfix {
+	height: 1%;
+	zoom: 1;
+}
+a {
+	color: #666;
+	text-decoration: none;
+}
+.hide {
+	display: none;
+}
+.over {
+    overflow: hidden;
+}
+/* ==============================tab切换开始===================================== */
+.tab {
+    margin-top: 0.45rem;
+    width: 100%;
+}
+.tab-title {
+    width: 100%;
+    height: 2rem;
+    border-top: 1px solid #e7e8ea;
+    border-bottom: 1px solid #e7e8ea;
+    background-color: #fff;
+}
+.tab-title ul {
+    float: left;
+    width: 100%;
+    height: 2rem;
+}
+.tab-title .head-item {
+    display: block;
+    padding-left: 11%;
+    float: left;
+    overflow: hidden;
+    width: 39%;
+}
+/*===============================tab切换结束====================================  */
+/*===============================toast样式开始====================================  */
+.toast {
+    position: fixed;
+    padding：0 3px 0 3px;
+    z-index: 99;
+    background-color: rgba(0,0,0,0.8);
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.8rem;
+    height:1.5rem;
+    line-height:1.5rem;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+/*===============================toast样式结束====================================  */
+
+

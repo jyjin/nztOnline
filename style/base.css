@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+/* Reset
+---------------------------------------------------------------------*/
+body, div, p,
+dl, dt, dd, ul, ol,
+h1, h2, h3, h4, h5, h6, 
+form,section {
+	margin: 0;
+	padding: 0;
+}
+input {
+	padding: 0;
+}
+body, div,span, p,
+dl, dt, dd, ul, ol,
+h1, h2, h3, h4, h5, h6, 
+form,img,abbr,em,i,ins,ol,ul,section{
+	-webkit-tap-highlight-color: transparent;
+}
+img, abbr,section,input,fieldset {
+	border: none;
+}
+cite, em, i, ins {
+	font-style: normal;
+	font-weight: normal;
+}
+ol, ul {
+	list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+button,input {
+	outline: none;
+}
+body {
+    background-color: #f2f2f2;
+    font: 16px/150% arial,helvetica,sans-serif;
+    color: #333;
+    -webkit-tap-highlight-color: transparent;
+    word-break: break-all;
+}
+/*********************   common css   ******************************/
+a {
+	color: #252525;
+	text-decoration: none;
+	outline-style: none;
+	-webkit-tap-highlight-color: rgba(255,0,0,0);
+}
+a:hover {
+	text-decoration: none;
+}
+img {
+	border: 0;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clear { 
+	clear: both;
+}
+.tl {
+	text-align: left;
+}
+.tc {
+	text-align: center;
+}
+.db {
+	display: block;
+}
+.dlb { 
+	display: inline-block;
+}
+.hide {
+	display: none;
+}
+.ell {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.full-height {
+	height: 100%;
+}
+.over {
+    overflow: hidden;
+}
+.bold{
+	font-weight: bold;
+}
+.ver-m{
+	vertical-align: middle;
+}
+.ver-b{
+	vertical-align: bottom;
+}
+.ver-t{
+	vertical-align: top;
+}
+/* 清除浮动 */
+.clear {
+	clear: both;
+	overflow: hidden;
+	height: 0;
+}
+.clearfix {
+	display: block;
+	zoom: 1;
+}
+.clearfix:after {
+	content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+*html .clearfix {
+	height: 1%;
+	zoom: 1;
+}
+
+/*
+18rem		页面宽度
+0.65rem  需查列表边距
+4.2rem X  3.15rem  巡查列表图片
+
+
+*/

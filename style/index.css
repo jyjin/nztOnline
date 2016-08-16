@@ -1,0 +1,444 @@
+html {
+    font-size: 20px;
+}
+body {
+    font-size: 0.7rem;
+}
+h1 {
+    font-size: 1.2rem;
+}
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    font-family: 微软雅黑;
+    text-align: center;
+    font: normal 100% Helvetica, Arial, sans-serif;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+/**
+ *滑块样式
+ */
+
+@media screen and (min-width: 1280px) {
+    .pageBg {
+        height: 100%;
+    }
+     /*.progress {
+        color: red;
+    }*/
+}
+@media screen and (max-width:480px) {
+    .pageBg {
+        width: 100%;
+        height: 100%;
+    }
+    /*.progress {
+        color: blue;
+    }*/
+}
+.page2{
+  width: 100%;
+  height: 100%;
+}
+
+.progress {
+    position: absolute;
+    color: #fff;
+    left: 0;
+    bottom: 7rem;
+    font-size: 1rem;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.knife {
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    margin: 0 -4rem;
+    width: 8rem;
+    height: 8rem;
+    background: url(/image/knife.gif?__sprite);
+    background-size: cover;
+}
+.arrow {
+    z-index: 9999;
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    margin: 0 -0.875rem;
+    width: 1.75rem;
+    height: 1.175rem;
+    background: url(/image/arrow2.png?__sprite);
+    background-size: cover;
+}
+.arrow1 {
+    z-index: 9999;
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    margin: 0 -0.5625rem;
+    width: 1.125rem;
+    height: 0.625rem;
+    background: url(/image/arrow1.png?__sprite);
+    background-size: cover;
+}
+.share {
+    position: absolute;
+    right: 1.5rem;
+    top: 1rem;
+    width: 9.575rem;
+    height: 3.825rem;
+    background: url(/image/share.png?__sprite);
+    background-size: cover;
+}
+.wrap {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    z-index: 1000;
+}
+.wrap img {
+    width: 100%;
+}
+
+/**
+ * page2
+ */
+
+.title-page2 {
+    top: 6%;
+}
+
+.ablum {
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    /*width: 14.125rem;
+    height: 10.4rem;*/
+    width:13.325rem;
+    height:9.845rem;
+    margin:-4.922rem -6.6625rem;
+    background: url(/image/video-bg.jpg);
+    border-radius: 0.4rem;
+}
+
+.ablum-bg-img {
+    margin: 0.4rem;
+    width:12.525rem;
+    height:9.045rem;
+}
+
+.ablum-bg {
+    margin: 0.4rem;
+    padding: 1rem 0;
+    background: #000;
+}
+
+.ablum1 {
+    overflow: hidden;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    z-index: 1000;
+    /*width: 14.125rem;
+    height: 10.4rem;*/
+    width:8.4375rem;
+    height:15rem;
+    margin:-7.5rem -4.21875rem;
+    background: url(/image/video-bg.jpg);
+    border-radius: 0.4rem;
+}
+
+.ablum-bg1 {
+    display:block;
+    margin: 0.4rem;
+    padding:0;
+    background: #000;
+    background-size: cover;
+}
+
+.award-wrap {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 56%;
+    z-index: 999;
+}
+
+.award-wrap.award-wrap1 {
+    top: 59%;
+}
+.award {
+    width: 100%;
+}
+.flag {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 999;
+    width: 6rem;
+    height: 3.75rem;
+    margin:-6.7975rem 0;
+    background: url(/image/flag.gif?__sprite);
+    background-size: cover;
+}
+.video-wrap {
+    position: absolute;
+    top: 39%;
+    left: 11%;
+    width: 78%;
+    z-index: 1000;
+}
+.nzt {
+    position: absolute;
+    bottom: -0.5rem;
+    width: 3.875rem;
+    height: 3.35rem;
+    left: 17%;
+    background: url(/image/nzt.png?__sprite);
+    background-size: cover;
+    z-index: 999;
+}
+.slogan {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    margin: 0 -3.9375rem;
+    z-index: 1000;
+    width: 7.875rem;
+    height: 2.725rem;
+    background: url(/image/slogan.png?__sprite);
+    background-size: cover;
+}
+
+/*
+ * page3
+ */
+
+.title-page3 {
+    top: 6%;
+}
+.flag1 {
+    position: absolute;
+    left: 0rem;
+    width: 6rem;
+    height: 3.75rem;
+    top: 41%;
+    margin:-6.7975rem 0;
+    background: url(/image/flag1.gif?__sprite);
+    background-size: cover;
+    z-index: 9999;
+}
+.slogan1 {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    margin: 0 -3.9375rem;
+    z-index: 1000;
+    width: 7.875rem;
+    height: 2.725rem;
+    background: url(/image/slogan1.png?__sprite);
+    background-size: cover;
+}
+
+/**
+ * page4
+ */
+ .title-page4 {
+     top: 6%;
+ }
+.oli {
+    position: absolute;
+    z-index: 1000;
+    width: 46%;
+    height: 21%;
+    top: 32%;
+    left: 27%;
+}
+.oli img {
+    position: absolute;
+    z-index: 999;
+}
+.oli1 {
+    left: 0;
+    width: 4.225rem;
+    top: 1rem;
+}
+.oli3 {
+    right: 0;
+    width: 4.975rem;
+    top: 1rem;
+}
+.oli img.oli2 {
+    left: 50%;
+    top: 0;
+    margin: 0 -2.5875rem;
+    width: 5.175rem;
+    z-index: 1000;
+}
+.find {
+    position: absolute;
+    top: 58%;
+    left: 0;
+    width: 100%;
+    height: 1.2rem;
+}
+.find i {
+    position: absolute;
+    top: 50%;
+    margin: -0.5px 0;
+    height: 1px;
+    background: #b2b2b2;
+    width: 100%;
+    z-index: 999;
+    display: block;
+}
+.btn-find {
+    position: absolute;
+    left: 50%;
+    display: block;
+    margin: 0 -2.8875rem;
+    width: 5.925rem;
+    height: 1.2rem;
+    background: url(/image/btn-find.png?__sprite);
+    background-size: cover;
+    z-index: 1000;
+}
+.step {
+    position: absolute;
+    left: 50%;
+    margin: 0px -6rem;
+    top: 70%;
+}
+.step i {
+    display: block;
+    float: left;
+    margin: 0.535rem 0.2rem;
+    width: 0.725rem;
+    height: 0.9rem;
+    background: url(/image/flow.png?__sprite);
+    background-size: cover;
+}
+.buy {
+    float: left;
+    width: 2.3rem;
+    height: 1.95rem;
+    background: url(/image/buy.png?__sprite);
+    background-size: cover;
+}
+.download {
+    float: left;
+    width: 2.3rem;
+    height: 1.95rem;
+    background: url(/image/sp-dl.png?__sprite);
+    background-size: cover;
+}
+.scan {
+    float: left;
+    width: 4.5rem;
+    height: 1.95rem;
+    background: url(/image/scan.png?__sprite);
+    background-size: cover;
+}
+.slogan2 {
+    position: absolute;
+    bottom: 1.8rem;
+    left: 50%;
+    margin: 0 -3.9375rem;
+    z-index: 1000;
+    width: 7.875rem;
+    height: 2.725rem;
+    background: url(/image/slogan2.png?__sprite);
+    background-size: cover;
+    z-index: 9999;
+}
+#share{
+  display: block;
+}
+#cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+}
+/**
+ *动画
+ */
+
+@-webkit-keyframes rollTop-leftToRight {
+    0% {
+        transform: rotate(-30deg);
+    }
+    50% {
+        transform: rotate(30deg);
+    }
+}
+.rollTop-leftToRight {
+    -webkit-transform-origin: bottom;
+    -webkit-animation: rollTop-leftToRight 3s;
+}
+@-webkit-keyframes topToBottom {
+    0%, 60%, 75%, 90%, 100% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100px, 0);
+        transform: translate3d(0, -100px, 0);
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 15px, 0);
+        transform: translate3d(0, 15px, 0);
+    }
+    75% {
+        -webkit-transform: translate3d(0, -10px, 0);
+        transform: translate3d(0, -10px, 0);
+    }
+    90% {
+        -webkit-transform: translate3d(0, 5px, 0);
+        transform: translate3d(0, 5px, 0);
+    }
+    100% {
+        0 -webkit-transform: none;
+        transform: none;
+    }
+}
+.topToBottom {
+    animation-name: topToBottom;
+    -webkit-animation-name: topToBottom;
+
+}
+.leftToRight {
+    /*animation: */
+}
